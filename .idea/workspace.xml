@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57f48593-cffd-4d1b-ae71-c1ef14b9a0be" name="Changes" comment="Moved this to another project locally. Not sure what impact that has in github cause I'm new here. Soooo just pushing from this project. Literally a copy/paste of the codebase with no changes." />
+    <list default="true" id="57f48593-cffd-4d1b-ae71-c1ef14b9a0be" name="Changes" comment="Moved this to another project locally. Not sure what impact that has in github cause I'm new here. Soooo just pushing from this project. Literally a copy/paste of the codebase with no changes.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/testNewLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testNewLinkedList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,17 +30,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Main">
+}</component>
+  <component name="RunManager" selected="JUnit.testNewLinkedList.testReverse">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LinkedLIst" />
@@ -53,8 +57,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testNewLinkedList.testReverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinkedLIst" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testNewLinkedList" />
+      <option name="METHOD_NAME" value="testReverse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testNewLinkedList.testReverse" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.testNewLinkedList" />
       </list>
@@ -83,7 +98,42 @@
       <option name="project" value="LOCAL" />
       <updated>1679186468794</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Moved this to another project locally. Not sure what impact that has in github cause I'm new here. Soooo just pushing from this project. Literally a copy/paste of the codebase with no changes.">
+      <created>1679186607743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679186607743</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Moved this to another project locally. Not sure what impact that has in github cause I'm new here. Soooo just pushing from this project. Literally a copy/paste of the codebase with no changes.">
+      <created>1679186665304</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679186665304</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Moved this to another project locally. Not sure what impact that has in github cause I'm new here. Soooo just pushing from this project. Literally a copy/paste of the codebase with no changes.">
+      <created>1679186685549</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679186685549</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Moved this to another project locally. Not sure what impact that has in github cause I'm new here. Soooo just pushing from this project. Literally a copy/paste of the codebase with no changes.">
+      <created>1679186766292</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679186766292</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Moved this to another project locally. Not sure what impact that has in github cause I'm new here. Soooo just pushing from this project. Literally a copy/paste of the codebase with no changes.">
+      <created>1679186849338</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679186849338</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,5 +162,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Moved this to another project locally. Not sure what impact that has in github cause I'm new here. Soooo just pushing from this project. Literally a copy/paste of the codebase with no changes." />
     <option name="LAST_COMMIT_MESSAGE" value="Moved this to another project locally. Not sure what impact that has in github cause I'm new here. Soooo just pushing from this project. Literally a copy/paste of the codebase with no changes." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tests/testNewLinkedList.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

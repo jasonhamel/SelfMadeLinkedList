@@ -72,4 +72,16 @@ public class NewLinkedList {
         trailer.next = trailer.next.next;
         length--;
     }
+
+    public void reverse() {
+        for (int i = 0; i < this.length; i++) {
+            Node tempHead = head;
+            Node tempTail = tail;
+
+            this.head = this.head.next;
+            tempHead.next = null;
+            this.tail.next = tempHead;
+            this.tail = tempHead;
+        }
+    }
 }
