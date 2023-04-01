@@ -2,7 +2,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class testNewLinkedList {
+public class TestNewLinkedList {
     NewLinkedList nll;
     @Before
     public void setup() {

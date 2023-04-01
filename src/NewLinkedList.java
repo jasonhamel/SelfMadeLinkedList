@@ -74,14 +74,19 @@ public class NewLinkedList {
     }
 
     public void reverse() {
-        for (int i = 0; i < this.length; i++) {
-            Node tempHead = head;
-            Node tempTail = tail;
-
-            this.head = this.head.next;
-            tempHead.next = null;
-            this.tail.next = tempHead;
-            this.tail = tempHead;
+        if (this.length == 1) {
+            return;
         }
+        tail = head;
+        Node previous = null;
+
+        while (head != null) {
+            Node next = head.next;
+            head.next = previous;
+            previous = head;
+            head = next;
+        }
+
+        head = previous;
     }
 }
