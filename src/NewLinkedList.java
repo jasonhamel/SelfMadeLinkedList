@@ -77,16 +77,15 @@ public class NewLinkedList {
         if (this.length == 1) {
             return;
         }
-        tail = head;
         Node previous = null;
-
-        while (head != null) {
-            Node next = head.next;
-            head.next = previous;
-            previous = head;
-            head = next;
+        Node current = this.head;
+        this.tail = this.head;
+        while (this.head != null) {
+            this.head = current.next;
+            current.next = previous;
+            previous = current;
+            current = this.head;
         }
-
-        head = previous;
+        this.head = previous;
     }
 }
