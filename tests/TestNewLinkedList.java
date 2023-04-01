@@ -54,12 +54,14 @@ public class TestNewLinkedList {
     public void testReverse() {
         nll.append(2);
         nll.append(3);
+        nll.prepend(0);
         nll.print();
         nll.reverse();
         nll.print();
         Assert.assertEquals(3, nll.head.data);
         Assert.assertEquals(2, nll.head.next.data);
         Assert.assertEquals(1, nll.head.next.next.data);
-        Assert.assertEquals(1, nll.tail.data);
+        Assert.assertEquals(0, nll.head.next.next.next.data);
+        Assert.assertEquals(0, nll.tail.data);
     }
 }
