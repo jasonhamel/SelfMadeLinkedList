@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57f48593-cffd-4d1b-ae71-c1ef14b9a0be" name="Changes" comment="Had to look up a hint for the reverse method. But working now">
+      <change afterPath="$PROJECT_DIR$/tests/TestNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NewLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestNewLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestNewLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +44,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2ND542oH5pdiNS4V4jGd4DhYTfv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -64,10 +68,18 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TestNewLinkedList.testReverse">
+  <component name="RunManager" selected="JUnit.All in LinkedLIst">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LinkedLIst" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in LinkedLIst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LinkedLIst" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,31 +93,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNewLinkedList.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNewLinkedList.testCheckPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LinkedLIst" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestNewLinkedList" />
-      <option name="METHOD_NAME" value="testCreate" />
+      <option name="METHOD_NAME" value="testCheckPalindrome" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNewLinkedList.testReverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNewLinkedList.testReverseWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LinkedLIst" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestNewLinkedList" />
-      <option name="METHOD_NAME" value="testReverse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testNewLinkedList.testReverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LinkedLIst" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testNewLinkedList" />
-      <option name="METHOD_NAME" value="testReverse" />
+      <option name="METHOD_NAME" value="testReverseWord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestNewLinkedList.testReverse" />
-        <item itemvalue="JUnit.TestNewLinkedList" />
+        <item itemvalue="JUnit.All in LinkedLIst" />
+        <item itemvalue="JUnit.TestNewLinkedList.testCheckPalindrome" />
+        <item itemvalue="JUnit.TestNewLinkedList.testReverseWord" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TestNewLinkedList.testCreate" />
-        <item itemvalue="JUnit.testNewLinkedList.testReverse" />
+        <item itemvalue="JUnit.TestNewLinkedList" />
       </list>
     </recent_temporary>
   </component>
